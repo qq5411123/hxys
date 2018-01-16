@@ -1,0 +1,1806 @@
+2017-08-10 18:29:14公众号ID：2 订单累计返现开始==============
+id158队列返现金额：0.60
+id159队列返现金额：0.60
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502360954' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '1.20',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+  1 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '1.20',
+    'last_money' => '1.20',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '2',
+  ),
+)
+2017-08-10 18:29:14公众号ID：2 订单累计返现完成==============
+
+2017-08-11 01:00:02公众号ID：2 订单累计返现开始==============
+id158队列返现金额：0.60
+id159队列返现金额：0.60
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id162队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502384402' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '2.40',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+  1 => 
+  array (
+    'money' => '3000.00',
+    'return_money' => '3.00',
+    'last_money' => '1.80',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '3',
+  ),
+)
+2017-08-11 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-08-12 01:00:01公众号ID：2 订单累计返现开始==============
+id158队列返现金额：0.60
+id159队列返现金额：0.60
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id162队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502470801' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '3.60',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+  1 => 
+  array (
+    'money' => '3000.00',
+    'return_money' => '4.80',
+    'last_money' => '1.80',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '3',
+  ),
+)
+2017-08-12 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-08-13 01:00:03公众号ID：2 订单累计返现开始==============
+id158队列返现金额：0.60
+id159队列返现金额：0.60
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id162队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502557203' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '4.80',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+  1 => 
+  array (
+    'money' => '3000.00',
+    'return_money' => '6.60',
+    'last_money' => '1.80',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '3',
+  ),
+)
+2017-08-13 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-08-14 01:00:02公众号ID：2 订单累计返现开始==============
+id158队列返现金额：0.60
+id159队列返现金额：0.60
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id162队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502643602' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '6.00',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+  1 => 
+  array (
+    'money' => '3000.00',
+    'return_money' => '8.40',
+    'last_money' => '1.80',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '3',
+  ),
+)
+2017-08-14 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-08-15 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502730001' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '7.20',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-15 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-08-16 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502816401' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '8.40',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-16 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-08-17 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502902801' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '9.60',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-17 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-08-18 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1502989201' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '10.80',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-18 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-08-19 01:00:03公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503075603' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '12.00',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-19 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-08-20 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503162001' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '13.20',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-20 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-08-21 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503248401' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '14.40',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-21 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-08-22 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503334801' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '15.60',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-22 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-08-23 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503421201' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '16.80',
+    'last_money' => '1.20',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '2',
+  ),
+)
+2017-08-23 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-08-25 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503594001' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '21.60',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '0.60',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '9.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '0.60',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '1.20',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-25 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-08-26 01:00:02公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503680402' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '26.40',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '1.20',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '18.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '1.20',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '2.40',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-26 01:00:04公众号ID：2 订单累计返现完成==============
+
+2017-08-27 01:00:02公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503766802' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '31.20',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '1.80',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '27.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '1.80',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '3.60',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-27 01:00:04公众号ID：2 订单累计返现完成==============
+
+2017-08-28 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503853201' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '36.00',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '2.40',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '36.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '2.40',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '4.80',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-28 01:00:04公众号ID：2 订单累计返现完成==============
+
+2017-08-29 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1503939601' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '40.80',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '3.00',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '45.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '3.00',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '6.00',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-29 01:00:04公众号ID：2 订单累计返现完成==============
+
+2017-08-30 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504026001' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '45.60',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '3.60',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '54.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '3.60',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '7.20',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-30 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-08-31 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504112401' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '50.40',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '4.20',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '63.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '4.20',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '8.40',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-08-31 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-09-01 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504198801' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '55.20',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '4.80',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '72.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '4.80',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '9.60',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-09-01 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-09-02 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504285201' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '60.00',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '5.40',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '81.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '5.40',
+    'last_money' => '0.60',
+    'openid' => 'u21ff7221bbf9f541cc8f21eb9076da72',
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '10.80',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-09-02 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-09-03 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504371601' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '64.80',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '6.00',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '90.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '6.00',
+    'last_money' => '0.60',
+    'openid' => NULL,
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '12.00',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-09-03 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-09-04 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504458001' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '69.60',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '6.60',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '99.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '6.60',
+    'last_money' => '0.60',
+    'openid' => NULL,
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '13.20',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-09-04 01:00:04公众号ID：2 订单累计返现完成==============
+
+2017-09-05 01:00:01公众号ID：2 订单累计返现开始==============
+id160队列返现金额：0.60
+id161队列返现金额：0.60
+id163队列返现金额：0.60
+id164队列返现金额：0.60
+id165队列返现金额：0.60
+id166队列返现金额：0.60
+id167队列返现金额：0.60
+id168队列返现金额：0.60
+id169队列返现金额：0.60
+id170队列返现金额：0.60
+id171队列返现金额：0.60
+id172队列返现金额：0.60
+id173队列返现金额：0.60
+id174队列返现金额：0.60
+id175队列返现金额：0.60
+id176队列返现金额：0.60
+id177队列返现金额：0.60
+id178队列返现金额：0.60
+id179队列返现金额：0.60
+id180队列返现金额：0.60
+id181队列返现金额：0.60
+id182队列返现金额：0.60
+id183队列返现金额：0.60
+id184队列返现金额：0.60
+id185队列返现金额：0.60
+id186队列返现金额：0.60
+id187队列返现金额：0.60
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '1504544401' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+  0 => 
+  array (
+    'money' => '8000.00',
+    'return_money' => '74.40',
+    'last_money' => '4.80',
+    'openid' => 'otCamwWRAdi4xW-rt3fe0W-bMaak',
+    'count' => '8',
+  ),
+  1 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '7.20',
+    'last_money' => '0.60',
+    'openid' => 'u2057a588106b47a9b7a441624641aff2',
+    'count' => '1',
+  ),
+  2 => 
+  array (
+    'money' => '15000.00',
+    'return_money' => '108.00',
+    'last_money' => '9.00',
+    'openid' => 'otCamwVwK2cpXBmXy2eoAgkiefU4',
+    'count' => '15',
+  ),
+  3 => 
+  array (
+    'money' => '1000.00',
+    'return_money' => '7.20',
+    'last_money' => '0.60',
+    'openid' => NULL,
+    'count' => '1',
+  ),
+  4 => 
+  array (
+    'money' => '2000.00',
+    'return_money' => '14.40',
+    'last_money' => '1.20',
+    'openid' => 'u588097ec8b30b1b4e2fe5a9efa42fa88',
+    'count' => '2',
+  ),
+)
+2017-09-05 01:00:05公众号ID：2 订单累计返现完成==============
+
+2017-09-06 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-06 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-07 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-07 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-08 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-08 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-09 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-09 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-10 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-10 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-11 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-11 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-12 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-12 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-13 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-13 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-14 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-14 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-15 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-15 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-16 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-16 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-17 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-17 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-18 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-18 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-19 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-19 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-20 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-20 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-09-21 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-21 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-22 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-22 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-23 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-23 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-24 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-24 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-25 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-25 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-09-26 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-26 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-09-27 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-27 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-09-28 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-28 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-09-29 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-29 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-09-30 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-09-30 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-01 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-01 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-02 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-02 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-03 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-03 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-04 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-04 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-05 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-05 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-06 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-06 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-07 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-07 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-08 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-08 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-09 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-09 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-10 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-10 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-11 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-11 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-10-12 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-12 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-13 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-13 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-14 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-14 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-15 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-15 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-16 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-16 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-17 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-17 01:00:03公众号ID：2 订单累计返现完成==============
+
+2017-10-18 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-18 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-19 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-19 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-20 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-20 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-21 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-21 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-23 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-23 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-24 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-24 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-25 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-25 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-26 01:00:01公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-26 01:00:01公众号ID：2 订单累计返现完成==============
+
+2017-10-27 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-27 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-28 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-28 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-29 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-29 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-30 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-30 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-10-31 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-10-31 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-01 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-01 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-02 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-02 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-03 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-03 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-04 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-04 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-05 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-05 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-06 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-06 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-07 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-07 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-08 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-08 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-09 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-09 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-10 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-10 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-11 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-11 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-12 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-12 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-13 01:00:04公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-13 01:00:04公众号ID：2 订单累计返现完成==============
+
+2017-11-14 01:00:18公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-14 01:00:18公众号ID：2 订单累计返现完成==============
+
+2017-11-15 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-15 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-16 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-16 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-17 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-17 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-18 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-18 01:00:02公众号ID：2 订单累计返现完成==============
+
+2017-11-19 01:20:03公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-19 01:20:03公众号ID：2 订单累计返现完成==============
+
+2017-11-20 01:00:02公众号ID：2 订单累计返现开始==============
+SELECT sum(r.money) as money, sum(r.return_money) as return_money, sum(r.last_money) as last_money,m.openid,count(r.id) as count,r.mid FROM `ims_sz_yi_return` r 
+					left join `ims_sz_yi_member` m on (r.mid = m.id) 
+				 WHERE r.uniacid = '2' and r.updatetime = '' and r.returnrule = '2' and r.delete = '0'  group by r.mid 
+订单累计金额返现内容：array (
+)
+2017-11-20 01:00:02公众号ID：2 订单累计返现完成==============
+

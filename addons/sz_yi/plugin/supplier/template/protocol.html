@@ -1,0 +1,41 @@
+{template 'web/_header'}
+<div class="w1200 m0a">
+{template 'tabs'}
+<div class="rightlist">
+<form id="setform"  action="" method="post" class="form-horizontal form">
+    <div class='panel panel-default'>
+           <div class='panel-heading'>
+            供应商协议
+        </div>
+        <div class="form-group">
+<label class="col-xs-12 col-sm-2 col-md-2 col-lg-2 control-label">协议名称</label>
+<div class="col-sm-8 col-lg-9 col-xs-12">
+
+<input type="text" class="form-control" name="title" value="{$data['title']}" placeholder='商户申请使用协议'/>
+</div>
+<label class="col-xs-12 col-sm-3 col-md-2 control-label" style="margin-top:30px;">商品详情</label>
+	<div class="col-sm-9 col-xs-12">
+    <textarea style="margin-top:30px;" id="content" name="content" type="text/plain" style="height:200px;">
+    {$data['content']}
+    </textarea>
+	<script type="text/javascript">
+		require(['util'], function(util){
+			util.editor('content', {
+			height : 200, 
+			dest_dir : '',
+			image_limit : 5120000,
+			allow_upload_video : true,
+			audio_limit : 5120000,
+			callback : ''
+			});
+		});
+	</script>
+	</div>
+	</div>
+    </div>
+    <input type="hidden" name="token" value="{$_W['token']}" />
+	<input style="float:right; margin-right:120px" type="submit" name="btn" value="提交">
+</form>
+</div>
+</div>
+{template 'web/_footer'}

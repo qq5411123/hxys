@@ -1,0 +1,45 @@
+{template 'web/_header'}
+<div class="w1200 m0a">
+{template 'web/finance/tabs'}
+ 
+<div class="rightlist">
+<div class="panel panel-default">
+    <div class="panel-heading">银联支持列表</div>
+    <div class="panel-body ">
+        <a class='btn btn-default' href="{php echo $this->createWebUrl('finance/banklist',array('op'=>'adds'));}" style="margin-bottom: 2px">添加银行</a>
+        <table class="table table-hover">
+            <thead class="navbar-inner">
+                <tr>
+                    <th style='width:8%;'></th>
+                    <th style='width:12%;'>支持银行</th>
+                    <th style='width:13%;'>银行LOGO</th>
+                    <th style='width:13%;'>是否显示</th>
+                    <th style='width:12%;'>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                {loop $list $row}
+                <tr>
+                    <td></td>
+                    <td>{$row['bank_name']}</td>
+                    <td   class='hidden-xs'><img src='../attachment/{$row['bank_logo']}' style='width:200px;height:60px;padding:1px;' /></td>
+                    {if $row['is_show'] == 1}
+                    <td>可用</td>
+                    {else}
+                    <td>不可用</td>
+                    {/if}
+                    <td>
+                        <a class='btn btn-default' href="{php echo $this->createWebUrl('finance/banklist',array('op'=>'adds','id' => $row['id']));}" style="margin-bottom: 2px">修改</a>
+                        <a class='btn btn-default' href="{php echo $this->createWebUrl('finance/banklist',array('op'=>'delete','id' => $row['id']));}" style="margin-bottom: 2px">删除</a>	
+                    </td>
+                </tr>
+                {/loop}
+            </tbody>
+        </table>
+
+           {$pager}
+    </div>
+</div>
+</div>
+</div>
+{template 'web/_footer'}
